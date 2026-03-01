@@ -26,7 +26,7 @@ export default async function Page() {
   return (
     <>
       <ToastContainer />
-      <div className="mt-35 mb-20 p-8">
+      <div className="mt-15 mb-20 p-8">
         <h1 className="text-2xl font-semibold mb-6">Form Submissions</h1>
 
         <div className="overflow-x-auto border rounded-lg">

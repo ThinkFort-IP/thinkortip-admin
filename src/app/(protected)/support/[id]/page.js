@@ -18,7 +18,7 @@ export default async function SupportTicketDetail({ params }) {
   const data = await getTicket(id);
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="mt-15 p-8 max-w-4xl mx-auto">
       <Link
         href="/support"
         className="text-sm text-blue-600 hover:underline"
