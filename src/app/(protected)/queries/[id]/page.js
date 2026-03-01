@@ -19,7 +19,7 @@ export default async function SubmissionDetail({ params }) {
   const data = await getSubmission(id);
 
   return (
-    <div className="p-8 max-w-5xl mx-auto">
+    <div className="mt-15 p-8 max-w-5xl mx-auto">
       <Link href="/queries" className="text-sm text-blue-600 hover:underline">
         ← Back to submissions
       </Link>
